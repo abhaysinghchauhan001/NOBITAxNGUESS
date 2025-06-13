@@ -1,0 +1,49 @@
+{
+  "name": "NobitaAnimeCharacterGuessBot",
+  "description": "An anime character guessing game bot built with Pyrogram and MongoDB",
+  "repository": "https://github.com/yourusername/your-repo-name",
+  "keywords": ["python", "telegram-bot", "pyrogram", "mongodb", "anime", "game"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID for the bot",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash for the bot",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "value": "",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection URL",
+      "value": "",
+      "required": true
+    },
+    "GROUP_IDS": {
+      "description": "Comma-separated list of group IDs where bot is active",
+      "value": "-1002559277065,-1002559277065",
+      "required": true
+    },
+    "START_IMG": {
+      "description": "Start message image URL",
+      "value": "https://files.catbox.moe/6nl03c.jpg",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
