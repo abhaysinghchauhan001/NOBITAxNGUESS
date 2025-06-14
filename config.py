@@ -7,7 +7,7 @@ API_ID = int(os.getenv("API_ID", "28164938"))
 API_HASH = os.getenv("API_HASH", "d53fd90b87686f713f6adc9428bbb6bb")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8027631028:AAGu7PjgrEajVQC6-ZpClbp_QvUv1XBzikA")
 MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://iamnobita1:nobitamusic1@cluster0.k08op.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-GROUP_IDS = [int(gid.strip()) for gid in os.getenv("GROUP_IDS", "-1002559277065, -1002559277065").split(",")]
+GROUP_IDS = [int(gid.strip()) for gid in os.getenv("GROUP_IDS", "-1002559277065, -1002506225416").split(",")]
 START_PIC = os.getenv("START_IMG", "https://files.catbox.moe/6nl03c.jpg")
 
 START_MESSAGE = """
