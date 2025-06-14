@@ -26,12 +26,12 @@
     },
     "GROUP_IDS": {
       "description": "Comma-separated list of group IDs where bot is active",
-      "value": "-1002559277065,-1002559277065",
+      "value": "-1002559277065,-1002506225416",
       "required": true
     },
     "START_IMG": {
       "description": "Start message image URL",
-      "value": "https://files.catbox.moe/6nl03c.jpg",
+      "value": "https://files.catbox.moe/7qyorb.jpg",
       "required": false
     }
   },
